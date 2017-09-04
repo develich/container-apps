@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  test2.netcoreweb:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8081"

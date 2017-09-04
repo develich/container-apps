@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  test2.netcoreweb:
+    image: test2.netcoreweb
+    build:
+      context: ./Test2.NetCoreWeb
+      dockerfile: Dockerfile
